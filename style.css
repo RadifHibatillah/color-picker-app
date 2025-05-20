@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.color-picker {
+  margin-bottom: 20px;
+}
+
+#colorInput {
+  width: 80px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+p {
+  font-size: 1.2em;
+  color: #555555;
+  margin: 10px 0;
+}
+.color-display {
+  width: 100%;
+  height: 150px;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.footer {
+  /* melebar persis selebar viewport */
+  width: 100vw;
+  /* pindahkan ke tengah viewport */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* styling yang sudah ada */
+  background-color: rgb(0, 113, 128);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 90%;
+  box-sizing: border-box;
+}
+.footer__text {
+  margin-bottom: 0.5rem;
+}
+.footer__author {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer__social a {
+  margin: 0 0.5rem;
+  color: inherit;
+  font-size: 1.4rem;
+  transition: color 0.2s ease;
+}
+.footer__social a:hover {
+  color: #3f51b5;
+}
